@@ -1,8 +1,12 @@
 {
-  "name": "hspace-lib",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@sonthepham/sharelibnpm",
+  "version": "1.0.3",
+  "description": "Halato Lib Project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",

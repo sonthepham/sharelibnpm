@@ -1,3 +1,1 @@
-export function showMessage(): string {
-  return 'Hello world!\n';
-}
+export { sayHello, sayGoodbye } from './hello-world';
